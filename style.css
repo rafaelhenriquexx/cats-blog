@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+	font-size: 62.5%;
+}
+body{
+	font-size: 1.6rem;
+}
+.conteiner{
+	width: 100%;
+	height: 100vh;
+	margin: 0 auto;
+	border: 3px solid blueviolet;
+}
+.header{
+	display: flex;
+	gap: 2.0rem;
+	padding: 1.2rem 11.2rem;
+	background: #065E7C;
+}
+.logo{
+	border-radius: 50%;
+}
+.perfil{
+	width: 4.5rem;
+	height: 4.3rem;
+	border-radius: 50%;
+}
+.header input{
+	width: 100%;
+}
