@@ -38,7 +38,7 @@ img {
 .header {
   display: flex;
   gap: 2rem;
-  padding: 1.2rem 11.2rem;
+  padding: 1.2rem 9rem;
   background: #065e7c;
 }
 .header form label {
@@ -79,14 +79,18 @@ form {
 }
 .main {
   grid-area: main;
-  margin: 4.4rem 3.4rem 4rem 11.2rem;
+  margin: 4.4rem 3.4rem 4rem 9rem;
   border: 1px solid red;
 }
 .main-box {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
-.icon-box{
+.main-box h1 {
+  padding: 3.2rem 0rem;
+}
+.icon-box {
   display: flex;
   gap: 1.2rem;
 }
@@ -94,12 +98,26 @@ form {
   width: initial;
 }
 .aside {
+  display: grid;
+  gap: 3.2rem;
   grid-area: aside;
-  margin: 4.4rem 11.2rem 4rem 0rem;
+  margin: 4.4rem 9rem 4rem 0rem;
   border: 1px solid red;
 }
 .aside-box {
   display: flex;
+  gap: 1.6rem;
+  border: 1px solid royalblue;
+}
+.aside-description {
+  border: 1px solid red;
+}
+.aside-description h2 {
+  padding-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+.aside-description p {
+ font-size: 1.4rem;
 }
 .footer {
   grid-area: footer;
