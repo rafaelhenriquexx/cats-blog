@@ -11,6 +11,7 @@ body {
   font-size: 1.6rem;
   color: #121214;
   line-height: 160%;
+  background: #f4fcff;
 }
 h1 {
   color: #202024;
@@ -38,7 +39,7 @@ img {
 .header {
   display: flex;
   gap: 2rem;
-  padding: 1.2rem 9rem;
+  padding: 1.2rem 11.2rem;
   background: #065e7c;
 }
 .header form label {
@@ -79,7 +80,7 @@ form {
 }
 .main {
   grid-area: main;
-  margin: 4.4rem 3.4rem 4rem 9rem;
+  margin: 4.4rem 3.4rem 4rem 11.2rem;
   border: 1px solid red;
 }
 .main-box {
@@ -98,29 +99,52 @@ form {
   width: initial;
 }
 .aside {
-  display: grid;
-  gap: 3.2rem;
   grid-area: aside;
-  margin: 4.4rem 9rem 4rem 0rem;
+  margin: 4.4rem 11.2rem 4rem 0rem;
   border: 1px solid red;
 }
 .aside-box {
   display: flex;
+  margin-top: 3.2rem;
+  align-items: center;
   gap: 1.6rem;
   border: 1px solid royalblue;
 }
 .aside-description {
-  border: 1px solid red;
+  border: 1px solid yellow;
 }
 .aside-description h2 {
-  padding-bottom: 1.5rem;
   font-size: 1.8rem;
 }
 .aside-description p {
- font-size: 1.4rem;
+  font-size: 1.4rem;
+  max-width: 21.5rem;
+  line-height: 160%;
 }
 .footer {
   grid-area: footer;
+  padding: 1.6rem 0;
+  color: #fff;
   text-align: center;
+  background: #387e96;
   border: 1px solid red;
+}
+.cats {
+  width: 151px;
+  height: 84px;
+}
+@media(max-width: 850px){
+  .conteiner{
+    display: flex;
+    flex-direction: column;
+  }
+  .header {
+    padding: 1.2rem 2.8rem;
+    background: #065e7c;
+  }
+  .main {
+    grid-area: main;
+    margin: 0;
+    border: 1px solid red;
+  }
 }
