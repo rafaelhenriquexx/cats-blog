@@ -76,12 +76,10 @@ form {
 }
 .header {
   grid-area: header;
-  border: 1px solid red;
 }
 .main {
   grid-area: main;
   margin: 4.4rem 3.4rem 4rem 11.2rem;
-  border: 1px solid red;
 }
 .main-box {
   display: flex;
@@ -96,22 +94,21 @@ form {
   gap: 1.2rem;
 }
 .icon {
+  cursor: pointer;
   width: initial;
 }
 .aside {
   grid-area: aside;
   margin: 4.4rem 11.2rem 4rem 0rem;
-  border: 1px solid red;
 }
 .aside-box {
   display: flex;
   margin-top: 3.2rem;
   align-items: center;
   gap: 1.6rem;
-  border: 1px solid royalblue;
 }
 .aside-description {
-  border: 1px solid yellow;
+  cursor: pointer;
 }
 .aside-description h2 {
   font-size: 1.8rem;
@@ -127,7 +124,6 @@ form {
   color: #fff;
   text-align: center;
   background: #387e96;
-  border: 1px solid red;
 }
 .cats {
   width: 151px;
@@ -142,9 +138,13 @@ form {
     padding: 1.2rem 2.8rem;
     background: #065e7c;
   }
-  .main {
-    grid-area: main;
+  .main, .aside {
     margin: 0;
-    border: 1px solid red;
+  }
+  .main-box, .main p{
+    padding: 0rem 2.2rem;
+  }
+  .aside{
+    padding: 3.4rem 2.2rem 4.1rem 2.2rem ;
   }
 }
